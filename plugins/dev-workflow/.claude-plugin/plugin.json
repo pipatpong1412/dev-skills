@@ -1,0 +1,8 @@
+{
+  "name": "dev-workflow",
+  "version": "0.1.0",
+  "description": "Project health audit (tests, health check, lint, CI, git hooks) and other day-to-day dev workflows.",
+  "author": {
+    "name": "Pipatpong"
+  }
+}

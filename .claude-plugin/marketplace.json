@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "dev-skills",
+  "owner": {
+    "name": "Pipatpong"
+  },
+  "metadata": {
+    "description": "Team skills for Claude Code: project audits, debugging checklists, cross-project change workflows."
+  },
+  "plugins": [
+    {
+      "name": "dev-workflow",
+      "description": "Project health audit (tests, health check, lint, CI, git hooks) and other day-to-day dev workflows.",
+      "source": "./plugins/dev-workflow",
+      "category": "productivity"
+    }
+  ]
+}

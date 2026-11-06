@@ -1,0 +1,14 @@
+# skill-creator eval workspaces
+*-workspace/
+
+# Eval cases point at local projects on the author's machine. Keep them out of
+# git until they are rewritten against fixture repos that are safe to publish.
+plugins/*/skills/*/evals/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS / editor
+.DS_Store
+Thumbs.db
